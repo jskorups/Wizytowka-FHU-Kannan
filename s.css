@@ -1,0 +1,111 @@
+.page-header{
+    margin: 0 !important;
+}
+.logoClass{
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
+.jumbotron {
+    height: 600px;
+    background-image:url("img/background.jpg");
+    margin-bottom: 0 !important;
+    padding-top: 200px !important;
+    text-align: center;
+    color: #ffffff;
+    border-top: 2px solid black ;
+    border-bottom: 2px solid black ;
+}
+h1{
+    font-size: 80px !important;
+}
+
+
+.affix {
+    top: 0;
+    width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-color: #F44336;
+    border-color: #F44336;
+
+}
+.affix a {
+    color: #fff !important;
+    padding: 15px !important;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.affix-top a {
+    padding: 25px !important;
+}
+.affix + .container-fluid {
+    padding-top: 95px;
+}
+.navbar{
+    margin-bottom: 0 !important;;
+    position: absolute;
+    background-color: blue;
+    z-index: 999;
+
+    border-radius: 0 !important;;
+
+}
+
+
+.navbar-nav>li:hover{
+    background-color: #000000;
+    color: #ffffff !important;
+}
+.navbar-nav>li{
+    max-height: 50px !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+
+    width: 120px ;
+    text-align: center;
+}
+.navbar-nav>li>a {
+    color : #000000 !important;
+}
+.navbar-nav>li>a:hover {
+    color : #ffffff !important;
+}
+
+.nav.navbar-nav {
+    height: 50px;
+    margin: auto;
+}
+
+.navbar.navbar-inverse{
+    background-color: #ffffff;
+    border: 0;
+}
+
+.classPanel{
+    text-align: center;
+
+}
+.col-md-4{
+    text-align: center;
+
+
+}
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     width: 100%;
+     margin: 0;
+ }
+ .navbar-brand{
+     padding: 0px;
+     height: 100px;
+     background-color: #ffff00;
+ }
+.navbar-brand img{
+    display: inline-block;
+}
+.aboutUs{
+
+    text-align: center;
+
+}
