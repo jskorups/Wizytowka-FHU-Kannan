@@ -5,6 +5,7 @@
     color: #ffffff;
     text-align: left;
     font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
 }
 .jumbotron {
     height: 600px;
@@ -107,5 +108,15 @@ h1{
 .aboutUs{
 
     text-align: center;
-
+    margin-top: 10px;
+}
+.yolo{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+.btn-lg {
+    background-color: #ffffff !important;
+    color: orange !important;
+    border: 2px solid orange !important;
 }
