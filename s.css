@@ -109,14 +109,69 @@ h1{
 
     text-align: center;
     margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 .yolo{
-    background-color: red;
+    background-color: #171717;
+    color: #ffffff;
     height: 100%;
     width: 100%;
+    border-top: 3px solid black;
 }
 .btn-lg {
     background-color: #ffffff !important;
     color: orange !important;
     border: 2px solid orange !important;
+
+}
+.btn-lg:hover{
+    background-color: darkgray !important;
+    color: #ffffff  !important;
+    border: 1px solid orange !important; ;
+}
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+.realizajce{
+    text-align: center;
+}
+.realizacjeSlider{
+    padding-bottom: 50px;
+}
+.contact {
+    background-color: orange;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+
+}
+
+.colC{
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.glyphicon{
+    font-size: 24px;
+}
+.copyright{
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.copyF {
+    background-color: #000000;
 }
