@@ -107,17 +107,47 @@ h1{
 }
 .aboutUs{
 
-    text-align: center;
+    text-align: justify;
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+
 }
+.imgHead{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.onas{
+    text-align: center;
+
+
+}
+.koszyk{
+    text-align: center;
+}
+.opiskoszyka {
+    text-align: center;
+}
+.buttkoszyka{
+    text-align: center;
+    width: 100px;
+
+}
+.buttKosz{
+    width: 200px;
+    height: 50px;
+}
+
 .yolo{
     background-color: #171717;
     color: #ffffff;
     height: 100%;
     width: 100%;
     border-top: 3px solid black;
+    padding-bottom: 60px;
+    padding-top: 30px;
 }
 .btn-lg {
     background-color: #ffffff !important;
@@ -146,6 +176,7 @@ h1{
 
 .realizajce{
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 .realizacjeSlider{
     padding-bottom: 50px;
@@ -162,6 +193,9 @@ h1{
     padding-top: 10px;
     font-family: 'Ubuntu', sans-serif;
 }
+.colCG:hover{
+    background-color: darkslategrey;
+}
 .glyphicon{
     font-size: 24px;
 }
@@ -174,4 +208,11 @@ h1{
 }
 .copyF {
     background-color: #000000;
+}
+.classPanel{
+    font-family: 'Ubuntu', sans-serif;
+}
+.offerHead{
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 36px;
 }
